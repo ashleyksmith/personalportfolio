@@ -125,7 +125,11 @@ nav a.active { color: var(--black); font-weight: 700; text-decoration: underline
     padding-top: 6rem;
     padding-bottom: 6rem;
   }
+  #about {
+    padding-top: 1.5rem;
+  }
 }
+
 
 .scroll-indicator {
   position: absolute;
