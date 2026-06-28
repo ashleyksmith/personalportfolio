@@ -122,11 +122,23 @@ nav a.active { color: var(--black); font-weight: 700; text-decoration: underline
 @media (max-width: 640px) {
   #hero {
     min-height: auto;
-    padding-top: 6rem;
-    padding-bottom: 8rem;
+    padding-top: 12rem;
+    padding-bottom: 12rem;
   }
-  #research {
-    padding-top: 1rem;
+  section#about {
+    padding: 4rem 0 4rem !important;
+  }
+  section#research {
+    padding: 4rem 0 4rem !important;
+  }
+  section#beyond {
+    padding: 4rem 0 4rem !important;
+  }
+  section#contact {
+    padding: 4rem 0 4rem !important;
+  }
+  .skills li::after {
+    display: none;
   }
 }
 
@@ -248,7 +260,11 @@ section:not(#hero) {
   }
   .about-portrait {
     flex: 0 0 auto;
-    width: 160px;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .skills {
+    justify-content: center;
   }
 }
 
@@ -376,7 +392,8 @@ section:not(#hero) {
 
 /* ── Research ── */
 #research { background: var(--evergreen); }
-#research h2 { color: var(--white); }
+#research h2 { color: var(--white);
+}
 
 .projects-grid {
   display: grid;
