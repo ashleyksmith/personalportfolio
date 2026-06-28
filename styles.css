@@ -123,7 +123,10 @@ nav a.active { color: var(--black); font-weight: 700; text-decoration: underline
   #hero {
     min-height: auto;
     padding-top: 6rem;
-    padding-bottom: 7rem;
+    padding-bottom: 8rem;
+  }
+  #research {
+    padding-top: 1rem;
   }
 }
 
