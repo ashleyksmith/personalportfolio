@@ -122,7 +122,7 @@ nav a.active { color: var(--black); font-weight: 700; text-decoration: underline
 @media (max-width: 640px) {
   #hero {
     min-height: auto;
-    padding-top: 12rem;
+    padding-top: 10rem;
     padding-bottom: 10rem;
   }
   section#about {
