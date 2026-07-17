@@ -314,6 +314,32 @@ section:not(#hero) {
   opacity: 1;
 }
 
+/* ── Education Timeline ── */
+.education {
+  margin-top: 1.75rem;
+}
+
+.education-heading {
+  margin-bottom: 1rem;
+}
+
+.education-type { 
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: var(--black);
+}
+
+.education-date {
+  font-size: 0.8rem;
+  color: var(--gray);
+}
+
+.education-org {
+  margin-bottom: 1rem;
+  font-size: 0.8rem;
+  color: var(--gray)
+}
+
 /* ── Experience Timeline ── */
 .experience {
   margin-top: 1.75rem;
@@ -621,6 +647,7 @@ footer .social-links {
   margin-top: 0;
 }
 
+
 /* ── Hamburger ── */
 .nav-toggle {
   display: none;
@@ -691,4 +718,3 @@ footer .social-links {
   align-items: center;
   gap: 1.25rem;
 }
-
