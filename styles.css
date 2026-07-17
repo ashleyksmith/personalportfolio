@@ -164,13 +164,25 @@ nav a.active { color: var(--black); font-weight: 700; text-decoration: underline
   50%       { transform: translateX(-50%) translateY(7px); }
 }
 
+.hero-heading {
+  display: flex;
+  flex-direction: column;
+  max-width: none;
+}
+
 .eyebrow {
   color: var(--accent);
   font-size: 1.25rem;
   font-weight: 500;
   letter-spacing: 0.02em;
-  margin-bottom: 0;
-  max-width: none;
+}
+
+.hero-name {
+  color: var(--black);
+  font-size: clamp(3rem, 8vw, 6rem);
+  font-weight: 400;
+  letter-spacing: -0.02em;
+  font-family: "DM Serif Display", serif;
 }
 
 .tagline {
