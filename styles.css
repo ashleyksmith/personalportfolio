@@ -657,9 +657,11 @@ footer p {
 .acknowledgement {
   font-size: 0.7rem;
   color: rgba(53, 70, 58, 0.8);
-  max-width: 700px;
+  max-width: 900px;
+  width: 100%;
   text-align: center;
   font-style: italic;
+  margin: 0 auto;
 }
 
 footer .social-links {
