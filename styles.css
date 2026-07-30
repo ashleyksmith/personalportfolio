@@ -807,3 +807,4 @@ footer .social-links {
   align-items: center;
   gap: 1.25rem;
 }
+.privacy-link { color: var(--gray); text-decoration: underline; text-underline-offset: 3px; }

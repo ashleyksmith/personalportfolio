@@ -3,7 +3,9 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self'; font-src 'self'; connect-src 'self' https://formspree.io; form-action 'self' https://formspree.io; frame-ancestors 'none'; base-uri 'self'; object-src 'none'" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self'; font-src 'self'; connect-src 'self' https://formspree.io; form-action 'self' https://formspree.io; frame-ancestors 'none'; base-uri 'self'; object-src 'none'" />
+  <meta name="referrer" content="strict-origin-when-cross-origin" />
+  <meta http-equiv="Permissions-Policy" content="camera=(), microphone=(), geolocation=()" />
 
   <!-- Primary SEO -->
   <title>Ashley Smith | PhD Student </title>
@@ -133,7 +135,7 @@
       <div class="hero-content">
         <p class="eyebrow">Hi there! I'm </p>
         <h1>Ashley Smith</h1>
-        <p class="tagline">I'm a PhD student focusing on creating more human-centred legal systems within the QUT School of Law. 
+        <p class="tagline">I'm a PhD student focusing on creating more human-centred legal information and systems within the QUT School of Law.
         </p>
         <a href="#contact" class="btn">Get in touch</a>
       </div>
@@ -155,6 +157,7 @@
           <div class="about-body">
             <p>
               My research interests focus on the intersection of law, emerging technologies, and legal design.
+              In particular, my work centres on digitised legislation processes and tools, including Rules as Code (RaC).
               I'm interested in exploring how we can explain, design, and conceptualise our legal systems in ways that are more accessible, understandable, and human-centred.
             </p>
             <ul class="skills">
@@ -202,14 +205,13 @@
             <img src="images/VRES.jpg" alt="A Regulatory Taxonomy of Quantum Technologies" class="project-thumb" loading="lazy" />
             <h3>A Regulatory Taxonomy of Quantum Technologies</h3>
             <p>As part of the QUT Faculty of Business and Law Vacation Research Experience Scheme (VRES), I conducted research on domestic and international statutory definitions of quantum technologies.</p>
-            <a href="https://doi.org/10.5204/MOHS7465" class="btn btn-porcelain" target="_blank" rel="noopener noreferrer">View Abstract Here →</a>
+            <a href="https://doi.org/10.5204/MOHS7465" class="btn btn-porcelain" target="_blank" rel="noopener noreferrer">View Abstract Here</a>
           </div>
           <div class="project-card">
             <img src="images/RaC.jpg" alt="Reconceptualising Rules as Code with Legal Design Patterns" class="project-thumb" loading="lazy" />
             <h3>Reconceptualising Rules as Code (RaC) with Legal Design Patterns</h3>
             <p>For my Laws Honours thesis, I explored how the RaC process can be reconceptualised and augmented with the legal design methodology of legal design patterns to enhance usability.</p>
-            <p>Publication under review in the Computer Law & Security Review Journal (mid-2026).</p>
-            <!-- <a href="#" class="link">View →</a> -->
+<a href="https://doi.org/10.1016/j.clsr.2026.106377" target="_blank" rel="noopener noreferrer" class="btn btn-porcelain">View Paper Here</a>
           </div>
         </div>
       </div>
@@ -313,7 +315,7 @@
       </li>
   </ul>    
     <p class="acknowledgement">I acknowledge the Turrbal and Yuggera peoples as the Traditional Custodians of Meanjin (Brisbane), the lands on which I work and research, and pay my respects to their Elders past, present and emerging.</p>
-    <p>&copy; <span id="footer-year"></span> Ashley Smith. All rights reserved. · <a href="privacy.html" style="color: var(--gray); text-decoration: underline; text-underline-offset: 3px;">Privacy Policy</a></p>
+    <p>&copy; <span id="footer-year"></span> Ashley Smith. All rights reserved. · <a href="privacy.html" class="privacy-link">Privacy Policy</a></p>
     </footer>
   <script src="script.js"></script>
 </body>
